@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		926A902619777D3B005EF086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A902519777D3B005EF086 /* main.m */; };
+		926A902919777D3B005EF086 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A902819777D3B005EF086 /* AppDelegate.m */; };
+		926A902C19777D3B005EF086 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A902B19777D3B005EF086 /* ViewController.m */; };
+		926A902F19777D3B005EF086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926A902D19777D3B005EF086 /* Main.storyboard */; };
+		926A903119777D3B005EF086 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926A903019777D3B005EF086 /* Images.xcassets */; };
+		926A903D19777D3B005EF086 /* FortunetellingWithObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A903C19777D3B005EF086 /* FortunetellingWithObjCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		926A903719777D3B005EF086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 926A901819777D3B005EF086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 926A901F19777D3B005EF086;
+			remoteInfo = FortunetellingWithObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		926A902019777D3B005EF086 /* FortunetellingWithObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortunetellingWithObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		926A902419777D3B005EF086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926A902519777D3B005EF086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		926A902719777D3B005EF086 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		926A902819777D3B005EF086 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		926A902A19777D3B005EF086 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		926A902B19777D3B005EF086 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		926A902E19777D3B005EF086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		926A903019777D3B005EF086 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		926A903619777D3B005EF086 /* FortunetellingWithObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortunetellingWithObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		926A903B19777D3B005EF086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926A903C19777D3B005EF086 /* FortunetellingWithObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FortunetellingWithObjCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		926A901D19777D3B005EF086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926A903319777D3B005EF086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		926A901719777D3B005EF086 = {
+			isa = PBXGroup;
+			children = (
+				926A902219777D3B005EF086 /* FortunetellingWithObjC */,
+				926A903919777D3B005EF086 /* FortunetellingWithObjCTests */,
+				926A902119777D3B005EF086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		926A902119777D3B005EF086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				926A902019777D3B005EF086 /* FortunetellingWithObjC.app */,
+				926A903619777D3B005EF086 /* FortunetellingWithObjCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		926A902219777D3B005EF086 /* FortunetellingWithObjC */ = {
+			isa = PBXGroup;
+			children = (
+				926A902719777D3B005EF086 /* AppDelegate.h */,
+				926A902819777D3B005EF086 /* AppDelegate.m */,
+				926A902A19777D3B005EF086 /* ViewController.h */,
+				926A902B19777D3B005EF086 /* ViewController.m */,
+				926A902D19777D3B005EF086 /* Main.storyboard */,
+				926A903019777D3B005EF086 /* Images.xcassets */,
+				926A902319777D3B005EF086 /* Supporting Files */,
+			);
+			path = FortunetellingWithObjC;
+			sourceTree = "<group>";
+		};
+		926A902319777D3B005EF086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				926A902419777D3B005EF086 /* Info.plist */,
+				926A902519777D3B005EF086 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		926A903919777D3B005EF086 /* FortunetellingWithObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				926A903C19777D3B005EF086 /* FortunetellingWithObjCTests.m */,
+				926A903A19777D3B005EF086 /* Supporting Files */,
+			);
+			path = FortunetellingWithObjCTests;
+			sourceTree = "<group>";
+		};
+		926A903A19777D3B005EF086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				926A903B19777D3B005EF086 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		926A901F19777D3B005EF086 /* FortunetellingWithObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926A904019777D3B005EF086 /* Build configuration list for PBXNativeTarget "FortunetellingWithObjC" */;
+			buildPhases = (
+				926A901C19777D3B005EF086 /* Sources */,
+				926A901D19777D3B005EF086 /* Frameworks */,
+				926A901E19777D3B005EF086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortunetellingWithObjC;
+			productName = FortunetellingWithObjC;
+			productReference = 926A902019777D3B005EF086 /* FortunetellingWithObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		926A903519777D3B005EF086 /* FortunetellingWithObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926A904319777D3B005EF086 /* Build configuration list for PBXNativeTarget "FortunetellingWithObjCTests" */;
+			buildPhases = (
+				926A903219777D3B005EF086 /* Sources */,
+				926A903319777D3B005EF086 /* Frameworks */,
+				926A903419777D3B005EF086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				926A903819777D3B005EF086 /* PBXTargetDependency */,
+			);
+			name = FortunetellingWithObjCTests;
+			productName = FortunetellingWithObjCTests;
+			productReference = 926A903619777D3B005EF086 /* FortunetellingWithObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		926A901819777D3B005EF086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Yukinaga Azuma";
+				TargetAttributes = {
+					926A901F19777D3B005EF086 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					926A903519777D3B005EF086 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 926A901F19777D3B005EF086;
+					};
+				};
+			};
+			buildConfigurationList = 926A901B19777D3B005EF086 /* Build configuration list for PBXProject "FortunetellingWithObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 926A901719777D3B005EF086;
+			productRefGroup = 926A902119777D3B005EF086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				926A901F19777D3B005EF086 /* FortunetellingWithObjC */,
+				926A903519777D3B005EF086 /* FortunetellingWithObjCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		926A901E19777D3B005EF086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926A902F19777D3B005EF086 /* Main.storyboard in Resources */,
+				926A903119777D3B005EF086 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926A903419777D3B005EF086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		926A901C19777D3B005EF086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926A902C19777D3B005EF086 /* ViewController.m in Sources */,
+				926A902919777D3B005EF086 /* AppDelegate.m in Sources */,
+				926A902619777D3B005EF086 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926A903219777D3B005EF086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926A903D19777D3B005EF086 /* FortunetellingWithObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		926A903819777D3B005EF086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 926A901F19777D3B005EF086 /* FortunetellingWithObjC */;
+			targetProxy = 926A903719777D3B005EF086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		926A902D19777D3B005EF086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926A902E19777D3B005EF086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		926A903E19777D3B005EF086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		926A903F19777D3B005EF086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		926A904119777D3B005EF086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FortunetellingWithObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		926A904219777D3B005EF086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FortunetellingWithObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		926A904419777D3B005EF086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FortunetellingWithObjC.app/FortunetellingWithObjC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FortunetellingWithObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		926A904519777D3B005EF086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FortunetellingWithObjC.app/FortunetellingWithObjC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FortunetellingWithObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		926A901B19777D3B005EF086 /* Build configuration list for PBXProject "FortunetellingWithObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926A903E19777D3B005EF086 /* Debug */,
+				926A903F19777D3B005EF086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926A904019777D3B005EF086 /* Build configuration list for PBXNativeTarget "FortunetellingWithObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926A904119777D3B005EF086 /* Debug */,
+				926A904219777D3B005EF086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		926A904319777D3B005EF086 /* Build configuration list for PBXNativeTarget "FortunetellingWithObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926A904419777D3B005EF086 /* Debug */,
+				926A904519777D3B005EF086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 926A901819777D3B005EF086 /* Project object */;
+}
